@@ -1,0 +1,11 @@
+.DS_Store
+.wrangler/
+
+qa-artifacts/*
+!qa-artifacts/design-comparison-final.jpg
+!qa-artifacts/implementation-desktop-v4.jpg
+!qa-artifacts/mobile-top-v2.jpg
+!qa-artifacts/mobile-contact-dialog-v2.jpg
+!qa-artifacts/mobile-middle-v2.jpg
+!qa-artifacts/mobile-footer-final.jpg
+!qa-artifacts/tablet-top.jpg

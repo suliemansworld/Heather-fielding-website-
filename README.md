@@ -12,14 +12,13 @@ python3 -m http.server 8080
 
 Then open `http://localhost:8080`.
 
-## Before publishing
+## Production notes
 
-1. Replace `heather@example.com` in `index.html` and `script.js`.
-2. Replace `(310) 555-1234` and the `tel:` link.
-3. Confirm Heather's exact credential wording and service area.
-4. Replace the generated placeholder portrait if Heather supplies a real headshot.
-5. Connect the inquiry form to Formspree, Netlify Forms, a CRM, or another form backend if desired.
+- The inquiry form prepares a complete email to `support@onset-education.com`.
+- Cloudflare Email Routing must forward that address to a verified destination mailbox before incoming mail can be delivered.
+- Add Heather's confirmed Instagram and LinkedIn profile URLs when available; the current footer icons are intentionally non-interactive until then.
+- Confirm Heather's exact credential wording and service area before treating the copy as legal or regulatory guidance.
 
 ## Assets
 
-The included imagery was extracted from the selected AI-generated design concept so the implemented site preserves its exact generated visual direction. The portrait is AI-generated and should not be presented as an actual photograph of Heather unless she approves its use as a stylized placeholder.
+The production-set hero, Redondo Beach scene, and coastal line art are AI-generated visual assets created to match the approved reference design. They should be treated as brand imagery rather than documentary photographs of Heather or a specific production.
